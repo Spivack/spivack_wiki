@@ -14,7 +14,7 @@ const CONTENT = {
   // ── Article header ─────────────────────────────────────────
   header: {
     title:    'Spivack',
-    subtitle: 'Surname · Eastern European Jewish origin',
+    subtitle: 'A Jewish surname, originating from the Pale of Settlement area, present day Ukraine.',
   },
 
   // ── Infobox ─────────────────
@@ -33,7 +33,7 @@ const CONTENT = {
   // ── Lead / introduction paragraphs ────────────────────────
   // Each string becomes one <p>. HTML tags are allowed.
   lead: [
-    '<b>Spivack</b> is a surname of Eastern European origin, most commonly found among Ashkenazi Jewish families whose ancestors lived in the territories of the former Russian Empire, including present-day Ukraine, Poland, and Belarus. The name is one of several anglicized spellings of the original form, which also appears as <i>Spivak</i>, <i>Spiwak</i>, and <i>Spiewak</i>.',
+    '<b>Spivack</b> is a surname of eastern European origin, most commonly found among Ashkenazi Jewish families whose ancestors lived in the Pale of Settlement territory of the former Russian Empire, including present-day Ukraine, Poland, and Belarus. The name is one of several anglicized spellings of the original form <i>Spivak</i>',
 
     // Add a second introductory paragraph here — brief overview of etymology,
     // historical spread, modern distribution, and any notable bearers.
