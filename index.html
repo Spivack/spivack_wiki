@@ -30,6 +30,9 @@
       </div>
 
       <aside class="infobox" id="infobox" aria-label="Quick facts"></aside>
+      <div style="text-align:center;">
+        <img src="pale.jpg" alt="Pale of Settlement, 1884" width="350">
+      </div>
 
       <section class="article-lead" id="lead"></section>
 
@@ -39,12 +42,6 @@
       </nav>
 
       <div id="sections"></div>
-
-      <section id="notable-people">
-        <h2>Notable people</h2>
-        <p>The following are notable individuals with the surname Spivack:</p>
-        <ul class="people-list" id="people-list"></ul>
-      </section>
 
       <section id="references">
         <h2>References</h2>
@@ -129,16 +126,6 @@
         el.innerHTML = html;
         sectionsEl.appendChild(el);
       });
-
-      // ── Notable people ────────────────────────────────────
-      const peopleList = document.getElementById('people-list');
-      CONTENT.notablePeople
-        .filter(p => p.name)
-        .forEach(function (person) {
-          const li = document.createElement('li');
-          li.innerHTML = `<b>${person.name}</b> — ${person.description}`;
-          peopleList.appendChild(li);
-        });
 
       // ── References ────────────────────────────────────────
       const refList = document.getElementById('references-list');
