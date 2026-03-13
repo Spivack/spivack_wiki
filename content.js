@@ -31,7 +31,6 @@ const CONTENT = {
   },
 
   // ── Lead / introduction paragraphs ────────────────────────
-  // Each string becomes one <p>. HTML tags are allowed.
   lead: [
     '<b>Spivack</b> is a surname of Ukrainian origin, most commonly found among <a href="https://en.wikipedia.org/wiki/Ashkenazi_Jews">Ashkenazi</a> Jewish families whose ancestors lived in the <a href="https://en.wikipedia.org/wiki/Pale_of_Settlement">Pale of Settlement</a> territory of the former Russian Empire.',
 
@@ -39,12 +38,6 @@ const CONTENT = {
   ],
 
   // ── Article sections ───────────────────────────────────────
-  // Each section renders an <h2> heading followed by its content blocks.
-  // Content block types:
-  //   { type: 'p',  html: '...' }          — paragraph
-  //   { type: 'h3', text: '...' }          — subheading
-  //   { type: 'ul', items: ['...', '...'] } — unordered list
-  //   { type: 'ol', items: ['...', '...'] } — ordered list
   sections: [
     {
       id:    'etymology',
