@@ -65,7 +65,7 @@ const CONTENT = {
         { type: 'h3', text: 'Immigration and diaspora' },
         {
           type: 'p',
-          html: 'It appears that the majority of Spivacks in the USA settled between New York City and Philadelphia.<sup>[4]</sup> ', // Describe migration patterns
+          html: 'It appears that the majority of Spivacks in the USA settled between New York City and Philadelphia.<sup>[4]</sup> ',
         },
       ],
     },
