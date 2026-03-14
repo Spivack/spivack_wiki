@@ -8,7 +8,7 @@ const CONTENT = {
   meta: {
     title:       'Spivack — Surname History & Meaning',
     description: 'A brief history and etymology of the Spivack surname.',
-    lastUpdated: '2026-03-12',
+    lastUpdated: '2026-03-13',
   },
 
   // ── Article header ─────────────────────────────────────────
@@ -34,7 +34,7 @@ const CONTENT = {
   lead: [
     '<b>Spivack</b> is a surname of Ukrainian origin, most commonly found among <a href="https://en.wikipedia.org/wiki/Ashkenazi_Jews">Ashkenazi</a> Jewish families whose ancestors lived in the <a href="https://en.wikipedia.org/wiki/Pale_of_Settlement">Pale of Settlement</a> territory of the former Russian Empire.',
 
-    'The name is one of several Americanized/Germanized spellings of the original form <i>Spivak</i>, meaning singer or cantor.<sup>[1]</sup>',
+    'The name is one of several Americanized/Germanized spellings of the original form <i>Spivak</i>, meaning singer or cantor.<sup>[2]</sup>',
   ],
 
   // ── Article sections ───────────────────────────────────────
@@ -45,7 +45,7 @@ const CONTENT = {
       content: [
         {
           type: 'p',
-          html: 'The surname is profession-based, and likely originated after 1804, when Jewish families adopted surnames by order of the Russian Empire.<sup>[2]</sup>',
+          html: 'The surname is profession-based, and likely originated after 1804, when Jewish families adopted surnames by order of the Russian Empire.<sup>[3]</sup>',
         },
         {
           type: 'p',
@@ -65,7 +65,7 @@ const CONTENT = {
         { type: 'h3', text: 'Immigration and diaspora' },
         {
           type: 'p',
-          html: 'It appears that the majority of Spivacks in the USA settled between New York City and Philadelphia.<sup>[3]</sup> ', // Describe migration patterns
+          html: 'It appears that the majority of Spivacks in the USA settled between New York City and Philadelphia.<sup>[4]</sup> ', // Describe migration patterns
         },
       ],
     },
@@ -76,7 +76,7 @@ const CONTENT = {
       content: [
         {
           type: 'p',
-          html: 'A historic family crest could not be found.  It appears that any family heritage crests claiming to be historical to Spivack (or Spivak) are likely modern creations.  Jewish families typically did not have family crests or coats of arms, as they were a feature of European nobility.<sup>[4]</sup>', // Country-level overview.
+          html: 'A historic family crest could not be found.  It appears that any family heritage crests claiming to be historical to Spivack (or Spivak) are likely modern creations.  Jewish families typically did not have family crests or coats of arms, as they were a feature of European nobility.<sup>[5]</sup>',
         },
       ],
     },
@@ -85,6 +85,7 @@ const CONTENT = {
   // ── References ─────────────────────────────────────────────
   // Each string becomes a numbered <li>. HTML is allowed.
   references: [
+    'https://scalar.usc.edu/works/let-me-get-there/media/pale-of-settlement-1884',
     'Hanks, Patrick (2003-05-08). Dictionary of American Family Names. Oxford University Press. ISBN 978-0-19-977169-1. ',
     'M Paull and J Briskman: “The History, Adoption, and Regulation of Jewish Surnames in the Russian Empire – A Review.” Surname DNA Journal, September 21, 2014. http://www.surnamedna.com/?articles=history-adoption-and-regulation-of-jewish-surnames-in-the-russian-empire.',
     'MyHeritage, “Spivack Last Name Meaning and Origin,” accessed March 13, 2026, https://lastnames.myheritage.com/last-name/spivack',
