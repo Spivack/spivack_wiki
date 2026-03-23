@@ -14,7 +14,7 @@ const CONTENT = {
   // ── Article header ─────────────────────────────────────────
   header: {
     title:    'Spivack',
-    subtitle: 'A Jewish surname, originating from the Pale of Settlement area within the former Russian Empire',
+    subtitle: 'A Jewish surname, originating from the Pale of Settlement area within the former Russian Empire.',
   },
 
   // ── Infobox ─────────────────
@@ -60,7 +60,7 @@ const CONTENT = {
       content: [
         {
           type: 'p',
-          html: '[Put more detailed history here]',
+          html: '[Primary sources coming soon]',
         },
         { type: 'h3', text: 'Immigration and diaspora' },
         {
